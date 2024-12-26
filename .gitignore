@@ -1,2 +1,12 @@
-.vscode/
-test
+
+
+you can use regex as a pattern in the git ignore file as bellow:
+
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
