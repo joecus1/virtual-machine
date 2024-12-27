@@ -1,7 +1,3 @@
-
-
-you can use regex as a pattern in the git ignore file as bellow:
-
 # Ignore all
 *
 
@@ -10,3 +6,5 @@ you can use regex as a pattern in the git ignore file as bellow:
 
 # Unignore all dirs
 !*/
+
+.vscode/
