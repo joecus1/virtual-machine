@@ -1,4 +1,7 @@
+#include <stdint.h>
 #include <stdio.h>
+
+uint16_t memory[2];
 
 int main() {
     printf("Hello world!\n");
