@@ -499,6 +499,7 @@ int main(int argc, char* argv[])
                 ld(instr);
                 break;
             case OP_ST:
+                st(instr);
                 break;
             case OP_JSR:
                 jsr(instr);
